@@ -1,7 +1,7 @@
-let contador = 0;
+let opcion;
 
-for (let i = 1; i <= 5; i++) {
-  contador++;
-}
-
-alert("Total: " + contador);
+do {
+  opcion = prompt(
+    "1. Imagen\n2. Audio\n3. Salir"
+  );
+} while (opcion !== "3");
